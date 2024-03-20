@@ -11,7 +11,7 @@ The API uses JSON Web Tokens (JWT) for authentication. Clients must include a va
 ## Endpoints
 
 ## runs on localhost:8080 and can be customised from application.properties.
-## just use postman to get, post, put and update to request in order to perform function.
+## Just use Postman to get, post, put and update to request to perform a function.
 
 ### 1. Generate JWT Token
 
@@ -24,3 +24,10 @@ The API uses JSON Web Tokens (JWT) for authentication. Clients must include a va
       "username": "ankitoli",
       "password": "2002"
   }
+
+  ### 2. After Authentication
+
+-start requesting the  server using Postman or another API tool with the required body.
+-  for the user, the endpoint is http://localhost:8080/user.
+-  for admin, the endpoint is http://localhost:8080/admin.
+-  for business owners, the endpoint is: http://localhost:8080/business-owner

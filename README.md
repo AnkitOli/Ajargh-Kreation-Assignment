@@ -25,7 +25,7 @@ The API uses JSON Web Tokens (JWT) for authentication. Clients must include a va
       "password": "2002"
   }
 
-  ### 2. After Authentication
+### 2. After Authentication
 
 -start requesting the  server using Postman or another API tool with the required body.
 -  for the user, the endpoint is http://localhost:8080/user.

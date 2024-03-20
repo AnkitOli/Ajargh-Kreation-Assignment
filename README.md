@@ -10,6 +10,9 @@ The API uses JSON Web Tokens (JWT) for authentication. Clients must include a va
 
 ## Endpoints
 
+## runs on localhost:8080 and can be customised from application.properties.
+## just use postman to get, post, put and update to request in order to perform function.
+
 ### 1. Generate JWT Token
 
 - **URL**: `/login`
